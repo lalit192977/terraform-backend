@@ -1,9 +1,9 @@
 terraform {
-  backend "s3" {
-    bucket = "practice-terraa"
-    key    = "terraform.tfstate"
-    region = "us-east-1"
-  }
+#   backend "s3" {
+#     bucket = "practice-terraa"
+#     key    = "terraform.tfstate"
+#     region = "us-east-1"
+#   }
 }
 
 variable "access_key" {

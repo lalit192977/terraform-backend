@@ -16,3 +16,12 @@ and the content of this file is
 access_key = "your access key"
 secret_key = "your secret key"
 ```
+
+
+#### migrating the backend
+for migrating the backend you have to just chand the backend the code
+like i am commented for the local use
+and run the command
+```javascript
+terraform init -migrate-state
+```
